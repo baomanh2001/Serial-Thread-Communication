@@ -43,7 +43,7 @@ WARNING: It cannot be started continously.
 ```
 protocol.write_line(f"X={make_string(valueX)},Y={make_string(valueY)},Z={make_string(valueZ)}")
 ```
-#Normal Issue
+# Normal Issue
 * Cannot receive message
 Missing the Terminator for the handle_line to run.
 The message send back to the port need to be like this "asdasd \r\n".
